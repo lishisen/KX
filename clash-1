@@ -8,9 +8,15 @@ proxies:
   - {name: 🇺🇸 美国(youtube阿伟科技), server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 2, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: hj001.xiba1.xyz, port: 20762, type: trojan, password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港(youtube阿伟科技), server: hk4.lolvps.xyz, port: 46541, type: vmess, uuid: 0cae403b-2082-44f0-af78-ba83aeb82ba8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /T1X1DKLN, headers: {Host: hk4.lolvps.xyz}}, udp: true}
-  - {name: 🇸🇬 新加坡(youtube阿伟科技), server: sgpcu.dfnode.top, port: 15733, type: vmess, uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: aweikeji-YouTube}}, udp: true}
   - {name: _油管：全网最强白嫖, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技), server: jp01-tls-vm0.entry.ikuuu.casa, port: 891, type: vmess, uuid: 3566759d-f1e6-3198-bd7e-818936f07c37, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-tls-vm0.entry.vm-pass.org}}, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 2, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 3, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus4.0bad.com}}, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技), server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 2, server: 120.241.236.93, port: 34955, type: trojan, password: 404427c6-67f8-439f-8503-d60d0d2bd0c0, sni: hkbgp1.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 3, server: hn.zfnode.org, port: 20212, type: trojan, password: 63ec756d-1f6a-36c8-a9fd-025f4acfc74f, sni: jp.sdmon.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 4, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 556b20c1-272e-44ec-881b-94f410ac75de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 5, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -20,9 +26,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,9 +43,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -43,9 +61,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -67,14 +91,21 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -84,9 +115,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -95,9 +132,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,9 +150,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,9 +177,15 @@ proxy-groups:
       - 🇺🇸 美国(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 2
       - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇭🇰 香港(youtube阿伟科技)
-      - 🇸🇬 新加坡(youtube阿伟科技)
       - _油管：全网最强白嫖
+      - 🇯🇵 日本(youtube阿伟科技)
+      - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇺🇸 美国(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇯🇵 日本(youtube阿伟科技) 3
+      - 🇺🇸 美国(youtube阿伟科技) 4
+      - 🇺🇸 美国(youtube阿伟科技) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
