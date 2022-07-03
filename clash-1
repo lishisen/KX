@@ -10,7 +10,9 @@ proxies:
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+15, server: 89.31.126.171, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技) 21, server: sg1.jjzgy.live, port: 32333, type: trojan, password: 78234ff5-7ddb-3b20-b797-d430b0d4a7b9, sni: sg1.jjzgy.live, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本(youtube阿伟科技) 2, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 15, server: hk.2046.gq, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: bfbd5c7f-2c23-44fd-8393-d0da67b23a49, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技) 23, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 17, server: zlaz1.portxray.xyz, port: 443, type: trojan, password: 08ce97bf-e053-40e3-9282-58af3592f32e, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+16, server: 89.31.126.171, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2, server: kr1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 9be8090d-bbdc-4e75-90da-044f04dd9c31, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 10, server: 85.208.108.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -19,23 +21,36 @@ proxies:
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 4, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 6, server: 85.208.108.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 7, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 23, server: 161.8.184.62, port: 29622, type: ss, cipher: aes-256-gcm, password: !<str> 89930128, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 2, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 5, server: 85.208.108.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 10, server: 85.208.108.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 21, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 2, server: no1.tinkhub.me, port: 443, type: vmess, uuid: 29ba3e22-66f3-4ca4-a761-cfa6b6cdee64, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: no1.tinkhub.me}}, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点), server: 194.156.231.251, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技), server: no2.tinkhub.me, port: 443, type: vmess, uuid: 09b4fdf3-b777-4091-bd9d-b10e382169e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: no2.tinkhub.me}}, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 11, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 4, server: no1.tinkhub.me, port: 443, type: vmess, uuid: a440a977-3b85-44b3-8baf-43e2bb7bcc4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: no1.tinkhub.me}}, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 6, server: us3.lolvps.xyz, port: 60072, type: vmess, uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /G0DXUQOM, headers: {Host: us3.lolvps.xyz}}, udp: true}
   - {name: 🇺🇸 _US_美国 2, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: 🇨🇦 加拿大(youtube阿伟科技) 2, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技) 22, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+13, server: 89.31.126.171, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+14, server: 89.31.126.171, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+6, server: 89.31.126.171, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 3, server: no1.tinkhub.me, port: 443, type: vmess, uuid: ced680ca-94e4-4290-8df0-7ebfbd81d194, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: no1.tinkhub.me}}, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 9, server: zzydnfw-v.bp365.cf, port: 443, type: vmess, uuid: 6a522b05-7182-4540-8c1a-6b15965f64b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /MDVMDGJUZI, headers: {Host: zzydnfw-v.bp365.cf}}, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+12, server: 89.31.126.171, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技) 4, server: vfly8.win, port: 443, type: vmess, uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly8.win}}, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+7, server: 89.31.126.171, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 29, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: false, udp: true}
   - {name: 🇬🇧 英国(yudou66.com+玉豆免费节点), server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 16, server: 5.188.0.151, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇩🇪 德国(yudou66.com+玉豆免费节点), server: mosaic.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 15, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 17, server: 5.188.0.151, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+11, server: 89.31.126.171, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 11 2, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
   - {name: 🇬🇧 英国(youtube阿伟科技), server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws/x-ui, headers: {Host: vpnu.loungers.cc}}, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+10, server: 89.31.126.171, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+9, server: 89.31.126.171, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -43,25 +58,32 @@ proxies:
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+8, server: 89.31.126.171, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点)+4, server: 152.69.193.148, port: 54909, type: ss, cipher: chacha20-ietf-poly1305, password: Gvyu5rTZKNVWk, udp: true}
   - {name: 🇯🇵 日本(yudou66.com+玉豆免费节点) 9, server: jp5.mayiyun.shop, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 9be8090d-bbdc-4e75-90da-044f04dd9c31, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 23, server: 194.156.231.254, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 3 2, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
   - {name: 🇸🇬 _SG_新加坡_9, server: 194.124.35.42, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇭🇰 香港(youtube阿伟科技) 2, server: vfly4.win, port: 443, type: vmess, uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly4.win}}, udp: true}
+  - {name: 🇭🇰 香港(youtube阿伟科技) 2 2, server: vfly4.win, port: 443, type: vmess, uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly4.win}}, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 14, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: ctn.nextvpn.cc}}, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 9 2, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: us03.gogogoo.cyou}}, udp: true}
   - {name: 🇩🇪 德国(yudou66.com 玉豆免费节点), server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
   - {name: 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2, server: 194.124.35.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(youtube阿伟科技), server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet-s.nextvpn.cc}}, udp: true}
   - {name: 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
   - {name: 亚洲(yudou66.com+玉豆免费节点), server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 7, server: 158.101.74.69, port: 31939, type: vmess, uuid: f130c826-40d9-44fb-be3d-75ebcb750d12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: v2.tgfaka.com, port: 443, type: vmess, uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.tgfaka.com}}, udp: true}
   - {name: 🇺🇸 美国(yudou66.com 玉豆免费节点), server: v5.tgfaka.com, port: 443, type: vmess, uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v5.tgfaka.com}}, udp: true}
   - {name: 🇸🇬 +_SG_新加坡+4, server: 194.124.35.42, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇺🇸 美国(youtube阿伟科技) 12, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}, udp: true}
   - {name: 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点), server: 194.124.35.42, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇱🇺 卢森堡(youtube阿伟科技), server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /go, headers: {Host: lu1.gogogoo.cyou}}, udp: true}
   - {name: 🇸🇬 _SG_新加坡_33, server: 194.124.35.42, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2, server: 81.90.189.15, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇫🇷 法国(youtube阿伟科技), server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
   - {name: 🇨🇳 台湾(youtube阿伟科技), server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}, udp: true}
   - {name: 🇭🇰 香港(yudou66.com+玉豆免费节点), server: ftp.cn.debian.cdnet.in, port: 8010, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技)+12, server: 194.124.35.17, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13, server: 81.90.189.15, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 新加坡(youtube阿伟科技) 5, server: 81.90.189.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12, server: 194.124.35.17, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5, server: 194.124.35.17, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23, server: 194.124.35.17, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -72,30 +94,39 @@ proxies:
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3, server: 194.124.35.23, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇯🇵 日本(youtube阿伟科技)+4, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12, server: 194.124.35.25, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 15, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vpnneo, headers: {Host: exa.nextvpn.cc}}, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26, server: 194.124.35.17, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇺🇸 美国(yudou66.com+玉豆免费节点) 2, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 27, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技)+5, server: 81.90.189.15, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3, server: 81.90.189.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8, server: 194.124.35.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10, server: 81.90.189.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9, server: 194.124.35.17, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 21, server: 5.183.176.92, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 22, server: 5.183.176.92, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点), server: 81.90.189.23, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6, server: 81.90.189.15, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4, server: 194.124.35.17, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7, server: 194.124.35.17, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20, server: 194.124.35.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 19, server: 5.183.176.92, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16, server: 194.124.35.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 新加坡(youtube阿伟科技) 9, server: 81.90.189.15, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25, server: 194.124.35.25, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24, server: 194.124.35.17, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 18, server: 5.183.176.92, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5, server: 81.90.189.23, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9, server: 194.124.35.17, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇨🇳 台湾(yudou66.com+玉豆免费节点), server: ftp.cn.debian.cdnet.in, port: 8020, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10, server: 194.124.35.24, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21, server: 194.124.35.24, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇩🇪 德国(youtube阿伟科技) 4, server: 104.17.20.119, port: 443, type: vmess, uuid: 6dd416ed-b07e-4b12-934a-520e22f3a6f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: m2.v2rayfree1.xyz}}, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15, server: 194.124.35.25, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12, server: 194.124.35.25, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14, server: 194.124.35.25, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 20, server: 172.64.199.253, port: 443, type: vmess, uuid: 2ad6e16f-08e9-482d-ae7a-70d1b2ec7159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Vmess, headers: {Host: ca.922833.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8, server: ftp.cn.debian.cdnet.in, port: 8050, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇺🇸 _US_美国, server: usa1.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: 9be8090d-bbdc-4e75-90da-044f04dd9c31, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4, server: 194.124.35.25, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
@@ -112,13 +143,17 @@ proxies:
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19, server: 194.124.35.25, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点), server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 20f047fe-00e0-408b-bd9a-e6b709b35ef1, udp: true}
   - {name: 🇸🇬 新加坡(youtube阿伟科技)+19, server: 81.90.189.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 5, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chcar, headers: {Host: v2fly.samrt.website}}, udp: true}
+  - {name: 🇸🇬 新加坡(youtube阿伟科技) 12, server: 217.197.161.181, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30, server: 194.124.35.25, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27, server: 194.124.35.24, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11, server: 194.124.35.24, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 🇺🇸 美国(yudou66.com+玉豆免费节点) 5, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18, server: 194.124.35.24, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本(youtube阿伟科技) 20, server: 5.183.176.92, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 18, server: api.qiscus.com, port: 443, type: vmess, uuid: 47e37af6-06b0-f5d8-0e1d-b601474c1351, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /726f5dd4/, headers: {Host: sgazure-d.solusihost.my.id}}, udp: true}
   - {name: 🇳🇱 荷兰(youtube阿伟科技), server: free-godlikeanyone.koyeb.app, port: 443, type: vmess, uuid: b7b1f689-f82e-4ce4-97e7-8a8997370e44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess, headers: {Host: free-godlikeanyone.koyeb.app}}, udp: true}
-  - {name: 🇺🇸 美国(youtube阿伟科技) 15, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
+  - {name: 🇺🇸 美国(youtube阿伟科技) 15 2, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
   - {name: 🇺🇸 美国(yudou66.com+玉豆免费节点) 7, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -131,7 +166,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -140,23 +177,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -164,25 +214,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -193,30 +250,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -233,13 +299,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: ♻️ 自动选择
     type: url-test
@@ -251,7 +321,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -260,23 +332,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -284,25 +369,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -313,30 +405,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -353,13 +454,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: 🎥 NETFLIX
     type: select
@@ -372,7 +477,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -381,23 +488,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -405,25 +525,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -434,30 +561,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -474,13 +610,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: ⛔️ 广告拦截
     type: select
@@ -505,7 +645,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -514,23 +656,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -538,25 +693,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -567,30 +729,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -607,19 +778,29 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港(youtube阿伟科技) 15
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技)
+      - 🇭🇰 香港(youtube阿伟科技) 4
+      - 🇭🇰 香港(youtube阿伟科技) 3
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
@@ -634,7 +815,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -643,23 +826,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -667,25 +863,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -696,30 +899,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -736,13 +948,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: 📲 电报信息
     type: select
@@ -754,7 +970,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -763,23 +981,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -787,25 +1018,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -816,30 +1054,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -856,13 +1103,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: 🍎 苹果服务
     type: select
@@ -875,7 +1126,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -884,23 +1137,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -908,25 +1174,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -937,30 +1210,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -977,13 +1259,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
   - name: 🎯 全球直连
     type: select
@@ -1005,7 +1291,9 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+15
       - 🇸🇬 新加坡(youtube阿伟科技) 21
       - 🇯🇵 日本(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 15
       - 🇸🇬 新加坡(youtube阿伟科技) 23
+      - 🇭🇰 香港(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+16
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 10
@@ -1014,23 +1302,36 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 6
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 7
+      - 🇺🇸 美国(youtube阿伟科技) 23
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 5
+      - 🇯🇵 日本(youtube阿伟科技) 10
+      - 🇺🇸 美国(youtube阿伟科技) 21
+      - 🇭🇰 香港(youtube阿伟科技) 2
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)
+      - 🇭🇰 香港(youtube阿伟科技)
       - 🇺🇸 美国(youtube阿伟科技) 11
+      - 🇭🇰 香港(youtube阿伟科技) 4
       - 🇺🇸 美国(youtube阿伟科技) 6
       - 🇺🇸 _US_美国 2
+      - 🇨🇦 加拿大(youtube阿伟科技) 2
       - 🇸🇬 新加坡(youtube阿伟科技) 22
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+13
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+14
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+6
+      - 🇭🇰 香港(youtube阿伟科技) 3
       - 🇺🇸 美国(youtube阿伟科技) 9
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+12
       - 🇸🇬 新加坡(youtube阿伟科技) 4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+7
+      - 🇺🇸 美国(youtube阿伟科技) 29
       - 🇬🇧 英国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 16
       - 🇩🇪 德国(yudou66.com+玉豆免费节点)
+      - 🇯🇵 日本(youtube阿伟科技) 15
+      - 🇯🇵 日本(youtube阿伟科技) 17
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+11
+      - 🇺🇸 美国(youtube阿伟科技) 11 2
       - 🇬🇧 英国(youtube阿伟科技)
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+10
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+9
@@ -1038,25 +1339,32 @@ proxy-groups:
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+8
       - 🇯🇵 日本(yudou66.com+玉豆免费节点)+4
       - 🇯🇵 日本(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 23
+      - 🇺🇸 美国(youtube阿伟科技) 3 2
       - 🇸🇬 _SG_新加坡_9
-      - 🇭🇰 香港(youtube阿伟科技) 2
+      - 🇭🇰 香港(youtube阿伟科技) 2 2
       - 🇺🇸 美国(youtube阿伟科技) 14
+      - 🇺🇸 美国(youtube阿伟科技) 9 2
       - 🇩🇪 德国(yudou66.com 玉豆免费节点)
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)+2
       - 🇮🇩 印尼(youtube阿伟科技)
       - 🇪🇺 欧洲(yudou66.com 玉豆免费节点) 2
       - 亚洲(yudou66.com+玉豆免费节点)
       - 🇺🇸 美国(youtube阿伟科技) 7
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇺🇸 美国(yudou66.com 玉豆免费节点)
       - 🇸🇬 +_SG_新加坡+4
       - 🇺🇸 美国(youtube阿伟科技) 12
       - 🇸🇬 SG新加坡(yudou66.com+玉豆免费节点)
+      - 🇱🇺 卢森堡(youtube阿伟科技)
       - 🇸🇬 _SG_新加坡_33
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 2
+      - 🇫🇷 法国(youtube阿伟科技)
       - 🇨🇳 台湾(youtube阿伟科技)
       - 🇭🇰 香港(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 13
+      - 🇸🇬 新加坡(youtube阿伟科技) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 23
@@ -1067,30 +1375,39 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 3
       - 🇯🇵 日本(youtube阿伟科技)+4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)+12
+      - 🇺🇸 美国(youtube阿伟科技) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 26
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 2
+      - 🇺🇸 美国(youtube阿伟科技) 27
       - 🇸🇬 新加坡(youtube阿伟科技)+5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 8
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 9
+      - 🇯🇵 日本(youtube阿伟科技) 21
+      - 🇯🇵 日本(youtube阿伟科技) 22
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 6
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 4
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 7
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 20
+      - 🇯🇵 日本(youtube阿伟科技) 19
       - 🇰🇷 韩国(yudou66.com+玉豆免费节点) 3
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 16
+      - 🇸🇬 新加坡(youtube阿伟科技) 9
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 25
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 24
+      - 🇯🇵 日本(youtube阿伟科技) 18
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 5
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 9
       - 🇨🇳 台湾(yudou66.com+玉豆免费节点)
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 10
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 21
+      - 🇩🇪 德国(youtube阿伟科技) 4
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 15
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 12
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 14
+      - 🇺🇸 美国(youtube阿伟科技) 20
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 8
       - 🇺🇸 _US_美国
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 4
@@ -1107,13 +1424,17 @@ proxy-groups:
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 19
       - 🇷🇺 俄罗斯(yudou66.com+玉豆免费节点)
       - 🇸🇬 新加坡(youtube阿伟科技)+19
+      - 🇺🇸 美国(youtube阿伟科技) 5
+      - 🇸🇬 新加坡(youtube阿伟科技) 12
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 30
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 27
       - 🇸🇬 新加坡(yudou66.com+玉豆免费节点) 11
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 5
       - 🇮🇩 印尼(yudou66.com+玉豆免费节点) 18
+      - 🇯🇵 日本(youtube阿伟科技) 20
+      - 🇺🇸 美国(youtube阿伟科技) 18
       - 🇳🇱 荷兰(youtube阿伟科技)
-      - 🇺🇸 美国(youtube阿伟科技) 15
+      - 🇺🇸 美国(youtube阿伟科技) 15 2
       - 🇺🇸 美国(yudou66.com+玉豆免费节点) 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
